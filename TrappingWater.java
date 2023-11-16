@@ -1,6 +1,5 @@
-/* Coderbyte
-mediumDiscussion Solutions 
-Trapping Water
+/*  Trapping Water
+medium
 Have the function TrappingWater(arr) take the array of non-negative integers stored in arr, and determine the largest amount of water that can be trapped. 
 The numbers in the array represent the height of a building (where the width of each building is 1) and if you imagine it raining, water will be trapped between the two tallest buildings.
 For example: if arr is [3, 0, 0, 2, 0, 4] then this array of building heights looks like the following picture if we draw it out:
