@@ -45,31 +45,7 @@ class Main {
 }
 
 
-// Alternate Method.
 
 
 
-public class BracketMatcher {
-    public static void main(String[] args) {
-        // write your code here
-        String str = "(hello (world))";
-        System.out.println(BracketMatcher((str)));
-    }
-    public static int BracketMatcher(String str) {
-        int left = 0;
-        int right = 0;
-        for (int i = 0; i < str.length(); i++) {
-            char c = str.charAt(i);
-            if (c == '(') {
-                left++;
-            } else if (c == ')') {
-               right++;
-            }
-            if (right > left) {
-                return 0;
-            }
-        }
-        return  left == right ? 1 : 0;
-    }
 
-}
